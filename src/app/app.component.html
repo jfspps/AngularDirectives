@@ -20,7 +20,7 @@
         <p>Only odd</p>
       </ng-template>
       <p appBasicHighlight>Styled with custom basic directive</p>
-      <p appAdvancedHighlight>Styled with custom advanced directive <a href="https://angular.io/api/core/Renderer2">(Renderer2)</a></p>
+      <p appAdvancedHighlight [defaultColor]="'pink'" [highlightColor]="'red'">Styled with custom advanced directive <a href="https://angular.io/api/core/Renderer2">(Renderer2)</a></p>
     </div>
   </div>
 </div>
