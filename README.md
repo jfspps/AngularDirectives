@@ -2,6 +2,10 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
 
+## Building directives from the console
+
+The command  `ng g c componentName` was used to generate (g) a new component. Similarly, one can build a new directive using `ng g d directiveName`.
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
