@@ -1,5 +1,13 @@
 # AngularDirectives
 
+Directives add functionality to HTML. Angular comes with built-in directives ngClass, ngStyle, ngIf, ngFor and ngSwitch.
+
+  + `NgClass` sets the CSS class
+  + `NgStyle` sets the CSS styling
+  + `NgIf`, `NgFor` and `NgSwitch` are structural directives evaluate conditions and execute statements as necessary
+ 
+This project demonstrates the above directives and the implementation of custom directives `basic-highlight` and `advanced-highlight` which change the background colour of a paragraph tag. The `advanced-highlight` directive also shows how to apply listeners and how to bind DOM properties to TypeScript properties (e.g. saving background colour property to a TypeScript string property).
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 11.0.4.
 
 ## Building directives from the console
